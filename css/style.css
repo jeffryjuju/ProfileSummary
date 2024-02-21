@@ -1,0 +1,40 @@
+.gradient-background {
+    background: linear-gradient(300deg, #200E3A, #52D3D8, #38419D); /* 2nd colour, 1st colour, transition colour */
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  .static-background {
+    background-color: #1B1A55;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    height: 300px;
+    border-radius: 50%;
+  }
+
+  .rounded-img {
+    border-radius: 0.75rem;
+  }
+  
+  .description {
+    color: white;
+  }
